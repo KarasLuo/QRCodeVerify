@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <string name="app_name">江淮二维码扫描</string>
+
+    <string name="qrcode_verify">二维码校验</string>
+    <string name="qrcode_scan">二维码扫描</string>
+    <string name="qrcode_result">校验结果</string>
+    <string name="data_input">数据导入</string>
+    <string name="parse_error">格式解析错误</string>
+
+    <string name="button_ok">确定</string>
+    <string name="msg_camera_framework_bug">很遗憾，Android 相机出现问题。你可能需要重启设备。</string>
+    <string name="msg_default_status">请将二维码置于取景框内。</string>
+    <string name="msg_error">错误</string>
+    <string name="msg_intent_failed">抱歉，无法打开应用。条码内容可能无效。</string>
+    <string name="result_text">找到纯文本</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoadFragment">
+
+    <ImageView
+        android:id="@+id/iv_load_file"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_daoru_tianchong" />
+
+    <TextView
+        android:id="@+id/tv_database_update_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimary"
+        android:text="本地数据更新时间：2019/03/03" />
+
+    <TextView
+        android:id="@+id/tv_data_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="数据条目：79"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="40dp"
+        android:textColor="@color/viewfinder_mask"
+        android:text="注：可导入的文件格式为.csv，请按照指定格式填写导入的数据文件！" />
+</LinearLayout>
